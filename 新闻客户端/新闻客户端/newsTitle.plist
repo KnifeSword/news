@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>公益</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=GYPD,FOCUSGYPD</string>
+	<key>历史</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=LS153,FOCUSLS153</string>
+	<key>游戏</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=YX11,FOCUSYX11</string>
+	<key>体育</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=TY43,FOCUSTY43,TYLIVE</string>
+	<key>科技</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=KJ123,FOCUSKJ123</string>
+	<key>数码</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=SM66,FOCUSSM66</string>
+	<key>专题</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=ZTPD,FOCUSZTPD</string>
+	<key>博客</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=BB10,FOCUSBB10</string>
+	<key>女性</key>
+	<string>http://api.3g.ifeng.com/clientShortNews?type=beauty</string>
+	<key>电影</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=DYPD&amp;uid=e45f9b59753d6f034ae5f5daad4177f5b1d1ee10</string>
+	<key>时尚</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=SS78,FOCUSSS78</string>
+	<key>读书</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=DS57,FOCUSDS57&amp;publishid=4002&amp;uid=e45f9b59753d6f034ae5f5daad4177f5b1d1ee10</string>
+	<key>搞笑</key>
+	<string>http://api.3g.ifeng.com/clientShortNews?type=joke</string>
+	<key>音乐</key>
+	<string>http://api.3g.ifeng.com/clientChannelNewsSearch?k=%E9%9F%B3%E4%B9%90&amp;action=down&amp;gv=5.2.0&amp;av=0&amp;proid=ifengnews</string>
+	<key>时政</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=SZPD,FOCUSSZPD</string>
+	<key>军事</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=JS83,FOCUSJS83</string>
+	<key>推荐</key>
+	<string>http://api.irecommend.ifeng.com/irecommendList.php?userId=867201020158065&amp;count=15&amp;gv=5.2.0&amp;av=5.2.0&amp;uid=867201020158065&amp;deviceid=867201020158065&amp;proid=ifengnews&amp;os=android_22&amp;df=androidphone&amp;vt=5&amp;screen=720x1280&amp;publishid=9023&amp;city=%E9%83%91%E5%B7%9E%E5%B8%82&amp;province=%E6%B2%B3%E5%8D%97%E7%9C%81</string>
+	<key>汽车</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=QC45,FOCUSQC45</string>
+	<key>财经</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=CJ33,FOCUSCJ33,HNCJ33</string>
+	<key>娱乐</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=YL53,FOCUSYL53</string>
+	<key>文化</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=WH25,FOCUSWH25</string>
+	<key>头条</key>
+	<string>http://api.iclient.ifeng.com/ClientNews?id=SYLB10,SYDT10,SYRECOMMEND&amp;province=%E6%B2%B3%E5%8D%97%E7%9C%81&amp;city=%E9%83%91%E5%B7%9E%E5%B8%82</string>
+</dict>
+</plist>

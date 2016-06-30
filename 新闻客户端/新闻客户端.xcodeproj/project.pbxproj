@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E41F6E087E339AC8A34ED40 /* libPods-新闻客户端.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2751258D16BA6E240DA63CB2 /* libPods-新闻客户端.a */; };
+		CC0758801D24FF8200B4BF4B /* newsTitle.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC07587B1D24FF8200B4BF4B /* newsTitle.plist */; };
+		CC0758811D24FF8200B4BF4B /* NSDate+SSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07587D1D24FF8200B4BF4B /* NSDate+SSDate.m */; };
+		CC0758821D24FF8200B4BF4B /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07587F1D24FF8200B4BF4B /* UIImage+Image.m */; };
+		CC498A3F1CF3197300D53769 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC498A3E1CF3197300D53769 /* TitleScrollView.m */; };
+		CC498A421CF31B2600D53769 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC498A411CF31B2600D53769 /* homeViewController.m */; };
+		CC498A6B1CF3260600D53769 /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC498A6A1CF3260600D53769 /* DataTableViewController.m */; };
+		CC498A6F1CF33D8400D53769 /* new_feature_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC498A6C1CF33D8400D53769 /* new_feature_1@2x.png */; };
+		CC498A701CF33D8400D53769 /* new_feature_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC498A6D1CF33D8400D53769 /* new_feature_2@2x.png */; };
+		CC498A711CF33D8400D53769 /* new_feature_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC498A6E1CF33D8400D53769 /* new_feature_3@2x.png */; };
+		CC498A741CF33D9500D53769 /* XWSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC498A731CF33D9500D53769 /* XWSectionHeaderView.m */; };
+		CC498A771CF3401000D53769 /* hotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC498A761CF3401000D53769 /* hotViewController.m */; };
+		CC8A379B1D1CC3770067CC70 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8A379A1D1CC3770067CC70 /* MeTableViewController.m */; };
+		CC8A37A01D1D2A660067CC70 /* headerView.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8A379F1D1D2A660067CC70 /* headerView.png */; };
+		CC8A37A21D1D2E2F0067CC70 /* reading.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8A37A11D1D2E2F0067CC70 /* reading.png */; };
+		CC9C0F9B1D18208700E8DC8F /* XWHomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C0F991D18208700E8DC8F /* XWHomeListCell.m */; };
+		CC9C0F9C1D18208700E8DC8F /* XWHomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9C0F9A1D18208700E8DC8F /* XWHomeListCell.xib */; };
+		CCA18FE61D1BFA9900110433 /* docDestialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA18FE51D1BFA9900110433 /* docDestialVC.m */; };
+		CCB2F7671CEC57AD00978767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2F7661CEC57AD00978767 /* main.m */; };
+		CCB2F76A1CEC57AD00978767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2F7691CEC57AD00978767 /* AppDelegate.m */; };
+		CCB2F7701CEC57AD00978767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB2F76E1CEC57AD00978767 /* Main.storyboard */; };
+		CCB2F7721CEC57AD00978767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB2F7711CEC57AD00978767 /* Assets.xcassets */; };
+		CCB2F7751CEC57AD00978767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB2F7731CEC57AD00978767 /* LaunchScreen.storyboard */; };
+		CCE90E141CF473D100790455 /* head1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE90E111CF473D100790455 /* head1.png */; };
+		CCE90E151CF473D100790455 /* head2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE90E121CF473D100790455 /* head2.png */; };
+		CCE90E161CF473D100790455 /* head3.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE90E131CF473D100790455 /* head3.png */; };
+		CCFD0A3D1D196368006DEFEB /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD0A3C1D196368006DEFEB /* HomeListModel.m */; };
+		CCFD0A451D19667D006DEFEB /* XWimagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFD0A431D19667D006DEFEB /* XWimagesCell.m */; };
+		CCFD0A461D19667D006DEFEB /* XWimagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0A441D19667D006DEFEB /* XWimagesCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2751258D16BA6E240DA63CB2 /* libPods-新闻客户端.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-新闻客户端.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3614496209DAB2520BF4BFE8 /* Pods-新闻客户端.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新闻客户端.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新闻客户端/Pods-新闻客户端.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3FD311CA386FD4FC257840 /* Pods-新闻客户端.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新闻客户端.release.xcconfig"; path = "Pods/Target Support Files/Pods-新闻客户端/Pods-新闻客户端.release.xcconfig"; sourceTree = "<group>"; };
+		CC07587B1D24FF8200B4BF4B /* newsTitle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newsTitle.plist; sourceTree = "<group>"; };
+		CC07587C1D24FF8200B4BF4B /* NSDate+SSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SSDate.h"; sourceTree = "<group>"; };
+		CC07587D1D24FF8200B4BF4B /* NSDate+SSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SSDate.m"; sourceTree = "<group>"; };
+		CC07587E1D24FF8200B4BF4B /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CC07587F1D24FF8200B4BF4B /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		CC498A3D1CF3197300D53769 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		CC498A3E1CF3197300D53769 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		CC498A401CF31B2600D53769 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		CC498A411CF31B2600D53769 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		CC498A691CF3260600D53769 /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
+		CC498A6A1CF3260600D53769 /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
+		CC498A6C1CF33D8400D53769 /* new_feature_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1@2x.png"; sourceTree = "<group>"; };
+		CC498A6D1CF33D8400D53769 /* new_feature_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2@2x.png"; sourceTree = "<group>"; };
+		CC498A6E1CF33D8400D53769 /* new_feature_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3@2x.png"; sourceTree = "<group>"; };
+		CC498A721CF33D9500D53769 /* XWSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSectionHeaderView.h; sourceTree = "<group>"; };
+		CC498A731CF33D9500D53769 /* XWSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSectionHeaderView.m; sourceTree = "<group>"; };
+		CC498A751CF3401000D53769 /* hotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotViewController.h; sourceTree = "<group>"; };
+		CC498A761CF3401000D53769 /* hotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hotViewController.m; sourceTree = "<group>"; };
+		CC8A37991D1CC3770067CC70 /* MeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
+		CC8A379A1D1CC3770067CC70 /* MeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
+		CC8A379F1D1D2A660067CC70 /* headerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerView.png; sourceTree = "<group>"; };
+		CC8A37A11D1D2E2F0067CC70 /* reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reading.png; sourceTree = "<group>"; };
+		CC9C0F981D18208700E8DC8F /* XWHomeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeListCell.h; sourceTree = "<group>"; };
+		CC9C0F991D18208700E8DC8F /* XWHomeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeListCell.m; sourceTree = "<group>"; };
+		CC9C0F9A1D18208700E8DC8F /* XWHomeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWHomeListCell.xib; sourceTree = "<group>"; };
+		CCA18FE41D1BFA9900110433 /* docDestialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docDestialVC.h; sourceTree = "<group>"; };
+		CCA18FE51D1BFA9900110433 /* docDestialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = docDestialVC.m; sourceTree = "<group>"; };
+		CCAD21191CF48438005C2585 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CCB2F7621CEC57AD00978767 /* 新闻客户端.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新闻客户端.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB2F7661CEC57AD00978767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB2F7681CEC57AD00978767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB2F7691CEC57AD00978767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB2F76F1CEC57AD00978767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB2F7711CEC57AD00978767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB2F7741CEC57AD00978767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB2F7761CEC57AD00978767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE90E111CF473D100790455 /* head1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head1.png; sourceTree = "<group>"; };
+		CCE90E121CF473D100790455 /* head2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head2.png; sourceTree = "<group>"; };
+		CCE90E131CF473D100790455 /* head3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head3.png; sourceTree = "<group>"; };
+		CCFD0A3B1D196368006DEFEB /* HomeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListModel.h; sourceTree = "<group>"; };
+		CCFD0A3C1D196368006DEFEB /* HomeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListModel.m; sourceTree = "<group>"; };
+		CCFD0A421D19667D006DEFEB /* XWimagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWimagesCell.h; sourceTree = "<group>"; };
+		CCFD0A431D19667D006DEFEB /* XWimagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWimagesCell.m; sourceTree = "<group>"; };
+		CCFD0A441D19667D006DEFEB /* XWimagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWimagesCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB2F75F1CEC57AD00978767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E41F6E087E339AC8A34ED40 /* libPods-新闻客户端.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80439FE60C8D2A72345D48CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2751258D16BA6E240DA63CB2 /* libPods-新闻客户端.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC9C0F941D180D9F00E8DC8F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			path = "../../../PersonalEffect/微博个人详情页/微博个人详情页/Category";
+			sourceTree = "<group>";
+		};
+		CCB2F7591CEC57AD00978767 = {
+			isa = PBXGroup;
+			children = (
+				CCB2F7641CEC57AD00978767 /* 新闻客户端 */,
+				CCB2F7631CEC57AD00978767 /* Products */,
+				D4D83BE24F2E3F1118FD9C29 /* Pods */,
+				80439FE60C8D2A72345D48CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB2F7631CEC57AD00978767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2F7621CEC57AD00978767 /* 新闻客户端.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB2F7641CEC57AD00978767 /* 新闻客户端 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2F77E1CEC582000978767 /* 首页 */,
+				CCB2F77D1CEC581100978767 /* 热点 */,
+				CCB2F77C1CEC580100978767 /* 我 */,
+				CCB2F7651CEC57AD00978767 /* Supporting Files */,
+			);
+			path = "新闻客户端";
+			sourceTree = "<group>";
+		};
+		CCB2F7651CEC57AD00978767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A379F1D1D2A660067CC70 /* headerView.png */,
+				CC07587B1D24FF8200B4BF4B /* newsTitle.plist */,
+				CC07587C1D24FF8200B4BF4B /* NSDate+SSDate.h */,
+				CC07587D1D24FF8200B4BF4B /* NSDate+SSDate.m */,
+				CC07587E1D24FF8200B4BF4B /* UIImage+Image.h */,
+				CC07587F1D24FF8200B4BF4B /* UIImage+Image.m */,
+				CC9C0F941D180D9F00E8DC8F /* Category */,
+				CCAD21191CF48438005C2585 /* Common.h */,
+				CCE90E111CF473D100790455 /* head1.png */,
+				CCE90E121CF473D100790455 /* head2.png */,
+				CCE90E131CF473D100790455 /* head3.png */,
+				CCB2F7681CEC57AD00978767 /* AppDelegate.h */,
+				CCB2F7691CEC57AD00978767 /* AppDelegate.m */,
+				CCB2F7711CEC57AD00978767 /* Assets.xcassets */,
+				CCB2F7731CEC57AD00978767 /* LaunchScreen.storyboard */,
+				CCB2F7761CEC57AD00978767 /* Info.plist */,
+				CCB2F7661CEC57AD00978767 /* main.m */,
+				CC498A6C1CF33D8400D53769 /* new_feature_1@2x.png */,
+				CC498A6D1CF33D8400D53769 /* new_feature_2@2x.png */,
+				CC498A6E1CF33D8400D53769 /* new_feature_3@2x.png */,
+				CC8A37A11D1D2E2F0067CC70 /* reading.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB2F77C1CEC580100978767 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A37991D1CC3770067CC70 /* MeTableViewController.h */,
+				CC8A379A1D1CC3770067CC70 /* MeTableViewController.m */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		CCB2F77D1CEC581100978767 /* 热点 */ = {
+			isa = PBXGroup;
+			children = (
+				CC498A751CF3401000D53769 /* hotViewController.h */,
+				CC498A761CF3401000D53769 /* hotViewController.m */,
+			);
+			name = "热点";
+			sourceTree = "<group>";
+		};
+		CCB2F77E1CEC582000978767 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2F7811CEC586400978767 /* Model */,
+				CCB2F7801CEC585C00978767 /* View */,
+				CCB2F77F1CEC584D00978767 /* Control */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		CCB2F77F1CEC584D00978767 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				CC498A401CF31B2600D53769 /* homeViewController.h */,
+				CCA18FE41D1BFA9900110433 /* docDestialVC.h */,
+				CCA18FE51D1BFA9900110433 /* docDestialVC.m */,
+				CC498A411CF31B2600D53769 /* homeViewController.m */,
+				CC498A691CF3260600D53769 /* DataTableViewController.h */,
+				CC498A6A1CF3260600D53769 /* DataTableViewController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		CCB2F7801CEC585C00978767 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2F76E1CEC57AD00978767 /* Main.storyboard */,
+				CC498A3D1CF3197300D53769 /* TitleScrollView.h */,
+				CC498A3E1CF3197300D53769 /* TitleScrollView.m */,
+				CC498A721CF33D9500D53769 /* XWSectionHeaderView.h */,
+				CC498A731CF33D9500D53769 /* XWSectionHeaderView.m */,
+				CC9C0F981D18208700E8DC8F /* XWHomeListCell.h */,
+				CC9C0F991D18208700E8DC8F /* XWHomeListCell.m */,
+				CC9C0F9A1D18208700E8DC8F /* XWHomeListCell.xib */,
+				CCFD0A421D19667D006DEFEB /* XWimagesCell.h */,
+				CCFD0A431D19667D006DEFEB /* XWimagesCell.m */,
+				CCFD0A441D19667D006DEFEB /* XWimagesCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCB2F7811CEC586400978767 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD0A3B1D196368006DEFEB /* HomeListModel.h */,
+				CCFD0A3C1D196368006DEFEB /* HomeListModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D4D83BE24F2E3F1118FD9C29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3614496209DAB2520BF4BFE8 /* Pods-新闻客户端.debug.xcconfig */,
+				BC3FD311CA386FD4FC257840 /* Pods-新闻客户端.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB2F7611CEC57AD00978767 /* 新闻客户端 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB2F7791CEC57AD00978767 /* Build configuration list for PBXNativeTarget "新闻客户端" */;
+			buildPhases = (
+				2314E0155721E0FEDC708F13 /* [CP] Check Pods Manifest.lock */,
+				CCB2F75E1CEC57AD00978767 /* Sources */,
+				CCB2F75F1CEC57AD00978767 /* Frameworks */,
+				CCB2F7601CEC57AD00978767 /* Resources */,
+				3A0B53BD5832D9FA22B52BA9 /* [CP] Embed Pods Frameworks */,
+				1F3E45370F932DF4C1AD930A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新闻客户端";
+			productName = "新闻客户端";
+			productReference = CCB2F7621CEC57AD00978767 /* 新闻客户端.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB2F75A1CEC57AD00978767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCB2F7611CEC57AD00978767 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CCB2F75D1CEC57AD00978767 /* Build configuration list for PBXProject "新闻客户端" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB2F7591CEC57AD00978767;
+			productRefGroup = CCB2F7631CEC57AD00978767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB2F7611CEC57AD00978767 /* 新闻客户端 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB2F7601CEC57AD00978767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C0F9C1D18208700E8DC8F /* XWHomeListCell.xib in Resources */,
+				CCE90E151CF473D100790455 /* head2.png in Resources */,
+				CC498A711CF33D8400D53769 /* new_feature_3@2x.png in Resources */,
+				CC498A701CF33D8400D53769 /* new_feature_2@2x.png in Resources */,
+				CC0758801D24FF8200B4BF4B /* newsTitle.plist in Resources */,
+				CC8A37A21D1D2E2F0067CC70 /* reading.png in Resources */,
+				CCB2F7751CEC57AD00978767 /* LaunchScreen.storyboard in Resources */,
+				CC498A6F1CF33D8400D53769 /* new_feature_1@2x.png in Resources */,
+				CCB2F7721CEC57AD00978767 /* Assets.xcassets in Resources */,
+				CCE90E161CF473D100790455 /* head3.png in Resources */,
+				CCB2F7701CEC57AD00978767 /* Main.storyboard in Resources */,
+				CC8A37A01D1D2A660067CC70 /* headerView.png in Resources */,
+				CCFD0A461D19667D006DEFEB /* XWimagesCell.xib in Resources */,
+				CCE90E141CF473D100790455 /* head1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3E45370F932DF4C1AD930A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新闻客户端/Pods-新闻客户端-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2314E0155721E0FEDC708F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0B53BD5832D9FA22B52BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新闻客户端/Pods-新闻客户端-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB2F75E1CEC57AD00978767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC498A6B1CF3260600D53769 /* DataTableViewController.m in Sources */,
+				CCFD0A451D19667D006DEFEB /* XWimagesCell.m in Sources */,
+				CCA18FE61D1BFA9900110433 /* docDestialVC.m in Sources */,
+				CC498A3F1CF3197300D53769 /* TitleScrollView.m in Sources */,
+				CC8A379B1D1CC3770067CC70 /* MeTableViewController.m in Sources */,
+				CC0758811D24FF8200B4BF4B /* NSDate+SSDate.m in Sources */,
+				CC498A741CF33D9500D53769 /* XWSectionHeaderView.m in Sources */,
+				CCB2F76A1CEC57AD00978767 /* AppDelegate.m in Sources */,
+				CCFD0A3D1D196368006DEFEB /* HomeListModel.m in Sources */,
+				CC498A771CF3401000D53769 /* hotViewController.m in Sources */,
+				CC498A421CF31B2600D53769 /* homeViewController.m in Sources */,
+				CC0758821D24FF8200B4BF4B /* UIImage+Image.m in Sources */,
+				CCB2F7671CEC57AD00978767 /* main.m in Sources */,
+				CC9C0F9B1D18208700E8DC8F /* XWHomeListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCB2F76E1CEC57AD00978767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB2F76F1CEC57AD00978767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB2F7731CEC57AD00978767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB2F7741CEC57AD00978767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB2F7771CEC57AD00978767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB2F7781CEC57AD00978767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB2F77A1CEC57AD00978767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3614496209DAB2520BF4BFE8 /* Pods-新闻客户端.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新闻客户端/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qingyun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB2F77B1CEC57AD00978767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3FD311CA386FD4FC257840 /* Pods-新闻客户端.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新闻客户端/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qingyun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB2F75D1CEC57AD00978767 /* Build configuration list for PBXProject "新闻客户端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB2F7771CEC57AD00978767 /* Debug */,
+				CCB2F7781CEC57AD00978767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB2F7791CEC57AD00978767 /* Build configuration list for PBXNativeTarget "新闻客户端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB2F77A1CEC57AD00978767 /* Debug */,
+				CCB2F77B1CEC57AD00978767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB2F75A1CEC57AD00978767 /* Project object */;
+}
